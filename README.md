@@ -1,16 +1,16 @@
 # movieopedia
+>Flutter app to view details of current trending, top-rated and popular tv shows.
+>>Three widgets in the project are:
+>>>1. Trending Movies
+>>>2. Top Rated Movies
+>>>3. Popular TV shows
 
-A new Flutter project.
+<b>First Screen (with two widgets):</b> <br/>
+<img src="FirstScreen.png" width=30% height=30%> <br/>
 
-## Getting Started
+<b>Second Screen:</b> <br/>
+<img src="SecondScreen.png" width=30% height=30%> <br/>
 
-This project is a starting point for a Flutter application.
+<b>Third Widget:</b> <br/>
+<img src="ThirdWidget.png" width=30% height=30%> <br/>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
