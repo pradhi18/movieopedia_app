@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// Changes the text properties like color and font style
 class ModifiedText extends StatelessWidget {
   final String text;
   final Color color;

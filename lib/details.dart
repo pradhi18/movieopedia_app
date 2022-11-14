@@ -57,7 +57,7 @@ class Details extends StatelessWidget {
             Container(
               padding: EdgeInsets.only(left: 10),
               child: ModifiedText(
-                text: '' + launch_on,
+                text: 'Releasing on: ' + launch_on,
                 color: Colors.white,
                 size: 14,
               ),

@@ -7,6 +7,8 @@ import 'package:tmdb_api/tmdb_api.dart';
 
 void main() => runApp(new MyApp());
 
+// Sets the theme of app which is stateless
+// because there is no internal data to take care of
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -15,6 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         home: Home(),
         debugShowCheckedModeBanner: false,
+        // used light color scheme because dark color scheme was not giving indigo app bar
         theme: ThemeData(
           colorScheme: ColorScheme.light().copyWith(primary: Colors.indigo),
         ));
@@ -29,9 +32,12 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  // Three lists to store widget data from the api
   List trendingMovies = [];
   List topRatedMovies = [];
   List tv = [];
+
+  // generated api key and read access token from TMDB api
   final String apiKey = 'f30b3bd63c697a313d3484e4c5c7bd95';
   final String readAccessToken =
       'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMzBiM2JkNjNjNjk3YTMxM2QzNDg0ZTRjNWM3YmQ5NSIsInN1YiI6IjVmN2UyMDk2ZjkwYjE5MDAzNWM4YmRmNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.imL6nk0ZihneH18R9QE40lLKjz7dzFpOZXGEZmMKN-I';

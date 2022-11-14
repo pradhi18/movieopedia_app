@@ -29,6 +29,8 @@ class TV extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 itemBuilder: ((context, index) {
                   return InkWell(
+                    // Using the Navigator API to navigate to 2nd screen
+                    // to get details of a particular tv show
                     onTap: () {
                       Navigator.push(
                           context,

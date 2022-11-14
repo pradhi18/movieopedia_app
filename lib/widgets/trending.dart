@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:movieopedia/details.dart';
 import 'package:movieopedia/utils/text.dart';
 
+// Trending movies widget
 class TrendingMovies extends StatelessWidget {
   final List trending;
 
@@ -29,6 +30,8 @@ class TrendingMovies extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 itemBuilder: ((context, index) {
                   return InkWell(
+                    // Using the Navigator API to navigate to 2nd screen
+                    // to get details of a particular trending movie
                     onTap: () {
                       Navigator.push(
                           context,
