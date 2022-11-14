@@ -5,12 +5,12 @@
 >>>2. Top Rated Movies
 >>>3. Popular TV shows
 
-<b>First Widget and Screen:</b>
-<img src="FirstScreen.png" width=30% height=30%>
+<b>First Widget and Screen:</b> <br/>
+<img src="FirstScreen.png" width=30% height=30%> <br/>
 
-<b>Second Widget and Screen:</b>
-<img src="SecondScreen.png" width=30% height=30%>
+<b>Second Widget and Screen:</b> <br/>
+<img src="SecondScreen.png" width=30% height=30%> <br/>
 
-<b>Third Widget:</b>
-<img src="ThirdWidget.png" width=30% height=30%>
+<b>Third Widget:</b> <br/>
+<img src="ThirdWidget.png" width=30% height=30%> <br/>
 
